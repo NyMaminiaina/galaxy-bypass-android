@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Galaxy Bypass</string>
+    <string name="refresh">Actualiser</string>
+
+    <string name="shizuku_title">Shizuku</string>
+    <string name="shizuku_not_installed">Shizuku n\'est pas installé. Il donne à l\'appli l\'accès shell qui demandait avant un PC avec ADB.</string>
+    <string name="shizuku_not_running">Shizuku est installé mais pas démarré. Ouvre-le et démarre-le via le débogage sans fil (Wi-Fi requis). À refaire après chaque redémarrage du téléphone.</string>
+    <string name="shizuku_unsupported">Cette version de Shizuku est trop ancienne. Mets Shizuku à jour.</string>
+    <string name="shizuku_needs_permission">Shizuku est démarré. Autorise cette appli à l\'utiliser.</string>
+    <string name="shizuku_denied">Permission refusée. Active cette appli dans Shizuku → Applications autorisées.</string>
+    <string name="shizuku_connecting">Connexion à Shizuku…</string>
+    <string name="shizuku_connect_failed">Impossible de se connecter au service Shizuku. Vérifie que Shizuku est démarré, puis réessaie.</string>
+    <string name="shizuku_ready">Connecté</string>
+    <string name="btn_get_shizuku">Télécharger Shizuku</string>
+    <string name="btn_open_shizuku">Ouvrir Shizuku</string>
+    <string name="btn_grant">Autoriser</string>
+    <string name="btn_retry">Réessayer</string>
+
+    <string name="device_title">Appareil</string>
+    <string name="device_not_samsung">Ce n\'est pas un appareil Samsung. Les commandes ciblent des paquets Samsung et ne fonctionneront pas ici.</string>
+
+    <string name="status_title">État</string>
+    <string name="mode_gaming">Gaming Performance Mode</string>
+    <string name="mode_gaming_detail">Power Bypass activé · Game Tools, Game Launcher et GOS désactivés</string>
+    <string name="mode_normal">Normal Mode (par défaut)</string>
+    <string name="mode_normal_detail">Power Bypass désactivé · Game Tools, Game Launcher et GOS activés</string>
+    <string name="mode_custom">Configuration personnalisée</string>
+    <string name="mode_custom_detail">Réglages mixtes. Utilise l\'un des deux boutons ci-dessous pour revenir à un mode connu.</string>
+    <string name="mode_applying">Application des changements…</string>
+    <string name="mode_reading">Lecture de l\'état actuel…</string>
+    <string name="mode_verified">Relu depuis les vrais réglages du téléphone</string>
+    <string name="power_bypass">Power bypass</string>
+    <string name="not_installed">Non installé sur cet appareil</string>
+
+    <string name="btn_gaming_mode">Activer le Power Bypass et désactiver le GOS</string>
+    <string name="btn_gaming_mode_sub">Réduit la chauffe en contournant la batterie pendant le jeu</string>
+    <string name="btn_restore">Désactiver le Power Bypass et restaurer</string>
+    <string name="btn_restore_sub">Remet la charge et le GOS en fonctionnement normal</string>
+
+    <string name="warning_title">Avant de jouer</string>
+    <string name="warning_body">Désactiver le GOS retire la protection thermique de Samsung : surveille la température et utilise un refroidisseur pour les longues sessions. Le power bypass demande un chargeur USB-PD de 20 W ou plus. Le projet d\'origine indique que la batterie reste autour de 20 pour cent tant que le bypass est actif ; utilise « Restaurer les réglages » pour recharger normalement.</string>
+
+    <string name="log_title">Journal</string>
+</resources>
